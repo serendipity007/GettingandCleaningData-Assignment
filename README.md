@@ -5,4 +5,6 @@ A wide, tidy dataset for Human Activity Recognition Using Smartphones was produc
 3. Only the measurements on the mean and standard deviation for each measurement were utilized in the final dataset.
 4. The activities in the data set were named with descriptive activity labels, descriptive variable names were provided as appropriate.
 5. From the data set in step 4, an independent wide tidy data set with the average of each variable for each activity and each subject.
-The variable 
+
+The output dataset can be found in the tidy.txt file, which can be read into R with read.table("tidy.txt", header = TRUE). 
+Additional detailed descriptions of the variables can be found in CodeBook.md. 
