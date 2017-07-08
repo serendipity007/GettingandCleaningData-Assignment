@@ -7,10 +7,7 @@ A wide, tidy dataset for Human Activity Recognition Using Smartphones was produc
 5. From the data set in step 4, an independent wide tidy data set with the average of each variable for each activity and each subject.
 
 The output dataset can be found in the tidy.txt file, which can be read into R with :
-fileLoc <- "http://github.com/serendipity007/GettingandCleaningData-Assignment/blob/master/tidy.txt")
-read.table(url(fileLoc), header = TRUE)
-
-
-
+ fileLoc <- "http://github.com/serendipity007/GettingandCleaningData-Assignment/blob/master/tidy.txt")
+ read.table(url(fileLoc), fill = TRUE, sep = "\t", header = TRUE)
 
 Additional detailed descriptions of the variables can be found in CodeBook.md. 
