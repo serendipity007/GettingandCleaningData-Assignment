@@ -84,7 +84,7 @@ final$activity <- as.factor(final$activity)
 
 tidy <- final %>% group_by(subject, activity) %>% summarise_all(mean)
 ## capture.output( print(tidy, print.gap=3), file="tidy.txt")
-write.table(final, file = "tidy.txt", sep = "\t\t", quote = FALSE, row.names = FALSE)
+write.table(tidy, file = "tidy.txt", sep = "\t\t", quote = FALSE, row.names = FALSE)
 
 # check
 tidyData <- read.table("tidy.txt", header = TRUE)
